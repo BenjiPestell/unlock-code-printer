@@ -14,3 +14,7 @@ Dev code for interfacing with POS receipt printer
 
 ## Usage:
 Call `print_unlock_receipt(unlock_code)`
+
+
+## Drivers for debugging (Win/Mac)
+https://oemdrivers.com/printer-pos-58-usb-drivers
