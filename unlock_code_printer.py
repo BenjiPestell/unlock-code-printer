@@ -5,6 +5,8 @@ def print_unlock_receipt(unlock_code):
 	try:
 		#Establish connection with printer
 		p = Usb(0x0416, 0x5011)
+		#Add spacing for stapling
+		p.text("\n\n\n")
 		#Print top logo
 		p.image("Yeti logo.png")
 		#Print "PrecisionPro + Unlock code"
